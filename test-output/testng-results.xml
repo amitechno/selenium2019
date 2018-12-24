@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17305" started-at="2018-12-24T14:01:02Z" finished-at="2018-12-24T14:01:19Z">
+  <suite name="Default suite" duration-ms="24230" started-at="2018-12-24T14:08:01Z" finished-at="2018-12-24T14:08:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17305" started-at="2018-12-24T14:01:02Z" finished-at="2018-12-24T14:01:19Z">
-      <class name="com.selenium2019.MouseHover">
-        <test-method status="PASS" signature="UseMouseHover()[pri:0, instance:com.selenium2019.MouseHover@39c0f4a]" name="UseMouseHover" duration-ms="17281" started-at="2018-12-24T19:31:02Z" finished-at="2018-12-24T19:31:19Z">
+    <test name="Default test" duration-ms="24230" started-at="2018-12-24T14:08:01Z" finished-at="2018-12-24T14:08:25Z">
+      <class name="com.selenium2019.HandleMultipleWindow">
+        <test-method status="PASS" signature="mulwin()[pri:0, instance:com.selenium2019.HandleMultipleWindow@39c0f4a]" name="mulwin" duration-ms="24205" started-at="2018-12-24T19:38:01Z" finished-at="2018-12-24T19:38:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UseMouseHover -->
-      </class> <!-- com.selenium2019.MouseHover -->
+        </test-method> <!-- mulwin -->
+      </class> <!-- com.selenium2019.HandleMultipleWindow -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
