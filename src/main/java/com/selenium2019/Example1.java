@@ -16,7 +16,7 @@ public class Example1 {
 		System.out.println("Demo for entering text in textbox");
 		String path = System.getProperty("user.dir");
 		String driverpath = path + "/driver/chromedriver"; 
-		System.setProperty("webdriver.chrome.driver", driverpath);System.setProperty("webdriver.chrome.driver", "/Users/amitsharma/Documents/workspace/selenium2019/driver/chromedriver");	
+		System.setProperty("webdriver.chrome.driver", driverpath);
 	 driver = new ChromeDriver();
 	 driver.get("https://www.facebook.com/");
 	 driver.findElement(By.xpath("//*[@id='email']")).sendKeys("vit.amitsharma@gmail.com");

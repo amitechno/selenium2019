@@ -14,7 +14,7 @@ public class MouseHover {
 		System.out.println("Demo for mouse hover function");
 		String path = System.getProperty("user.dir");
 		String driverpath = path + "/driver/chromedriver"; 
-		System.setProperty("webdriver.chrome.driver", driverpath);System.setProperty("webdriver.chrome.driver", "/Users/amitsharma/Documents/workspace/selenium2019/driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", driverpath);
 		driver =new ChromeDriver();
 		driver.get("https://www.makemytrip.com/");
 		WebElement more = driver.findElement(By.xpath("//*[@id='ch_funnel_more']"));
