@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="124781" started-at="2018-12-23T13:18:10Z" finished-at="2018-12-23T13:20:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="124781" started-at="2018-12-23T13:18:10Z" finished-at="2018-12-23T13:20:15Z">
+      <class name="com.selenium2019.Example1">
+        <test-method status="PASS" signature="EnterDataInTextBox()[pri:0, instance:com.selenium2019.Example1@288cdaab]" name="EnterDataInTextBox" duration-ms="6485" started-at="2018-12-23T13:18:10Z" finished-at="2018-12-23T13:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDataInTextBox -->
+      </class> <!-- com.selenium2019.Example1 -->
+      <class name="com.selenium2019.HandleMultipleWindow">
+        <test-method status="PASS" signature="mulwin()[pri:0, instance:com.selenium2019.HandleMultipleWindow@23b3aa8c]" name="mulwin" duration-ms="20024" started-at="2018-12-23T13:18:17Z" finished-at="2018-12-23T13:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mulwin -->
+      </class> <!-- com.selenium2019.HandleMultipleWindow -->
+      <class name="com.selenium2019.MouseHover">
+        <test-method status="PASS" signature="UseMouseHover()[pri:0, instance:com.selenium2019.MouseHover@99407c2]" name="UseMouseHover" duration-ms="98242" started-at="2018-12-23T13:18:37Z" finished-at="2018-12-23T13:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UseMouseHover -->
+      </class> <!-- com.selenium2019.MouseHover -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

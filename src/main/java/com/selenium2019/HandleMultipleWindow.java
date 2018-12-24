@@ -15,7 +15,11 @@ public class HandleMultipleWindow {
 	
 	public void mulwin(){
 		System.out.println("Demo for handling multiple window");
-		System.setProperty("webdriver.chrome.driver", "/Users/amitsharma/Documents/workspace/selenium2019/driver/chromedriver");
+		String path = System.getProperty("user.dir");
+		String driverpath = path + "/driver/chromedriver"; 
+		System.setProperty("webdriver.chrome.driver", driverpath);
+		String globalPath = System.getProperty("user.dir");
+		System.out.println(globalPath);
 		driver = new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.findElement(By.xpath("//*[@id='social_block']/ul/li[3]/a")).click();
